@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC
+          "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>XPath Demo</title>
+    <script
+      type="text/javascript"
+      src="javascript/xpath.js">
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/xpath.css">
+  </head>
+  <body onLoad="loadXml () ;">
+    <h1>XPath Demo</h1>
+    <form method="GET" action=""
+      onSubmit="return false ;">
+      <fieldset id="axes">
+        <legend>XPath Axes</legend>
+        <select name="axis" size="12"
+          onChange="showAxis (this.value) ;">
+          <option value="ancestor">ancestor</option>
+          <option
+            value="ancestor-or-self">ancestor-or-self</option>
+          <option value="attribute">attribute</option>
+          <option value="child">child</option>
+          <option value="descendant">descendant</option>
+          <option
+            value="descendant-or-self">descendant-or-self</option>
+          <option value="following">following</option>
+          <option
+            value="following-sibling">following-sibling</option>
+          <option value="parent">parent</option>
+          <option value="preceding">preceding</option>
+          <option
+            value="preceding-sibling">preceding-sibling</option>
+          <option value="self">self</option>
+        </select>
+      </fieldset>
+      <fieldset id="axes-placeholder">
+        <legend>XPath Axes</legend>
+        <select name="axis-placeholder" size="12">
+          <option value="ancestor">ancestor</option>
+          <option
+            value="ancestor-or-self">ancestor-or-self</option>
+          <option value="attribute">attribute</option>
+          <option value="child">child</option>
+          <option value="descendant">descendant</option>
+          <option
+            value="descendant-or-self">descendant-or-self</option>
+          <option value="following">following</option>
+          <option
+            value="following-sibling">following-sibling</option>
+          <option value="parent">parent</option>
+          <option value="preceding">preceding</option>
+          <option
+            value="preceding-sibling">preceding-sibling</option>
+          <option value="self">self</option>
+        </select>
+      </fieldset>
+    </form>
+    <code id="xml"></code>
+  </body>
+</html>

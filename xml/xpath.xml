@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<COLLECTION dateCreated="01-04-2000">
+ <BOOK>
+    <TITLE>Splish Splash</TITLE>
+    <AUTHOR>Paula Thurman</AUTHOR>
+    <PUBLISHER>Scootney</PUBLISHER>
+    <PRICE>250</PRICE>
+ </BOOK>
+  <BOOK>
+    <TITLE Editor="Hoepli">Lover Birds2</TITLE>
+    <AUTHOR>Cynthia Randall</AUTHOR>
+    <PUBLISHER>Lucerne Publishing</PUBLISHER>
+    <PRICE>200</PRICE>
+ </BOOK>
+ <BOOK>
+    <TITLE>The Sundered Grail</TITLE>
+    <AUTHOR>Eva Corets</AUTHOR>
+    <PUBLISHER>Lucerne Publishing</PUBLISHER>
+    <PRICE>100</PRICE>
+ </BOOK>
+</COLLECTION> 

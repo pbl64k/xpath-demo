@@ -1,0 +1,84 @@
+  html , body
+  {
+    color : #002 ;
+    background-color : #ddf ;
+    font-size : 100% ;
+    font-family : sans-serif ;
+    padding : 0 ;
+    margin : 0 ;
+  }
+
+  h1
+  {
+    font-size : 110% ;
+    font-weight : bold ;
+    text-align : center ;
+    padding : 1em ;
+    border-bottom : thin solid #002 ;
+    margin : 0 0 1em 0 ;
+  }
+
+  code
+  {
+    display : block ;
+    overflow : auto ;
+    color : #000 ;
+    background-color : #fff ;
+    font-family : monospace ;
+    padding : 1em ;
+    border : thin solid #002 ;
+    margin : 1em ;
+  }
+
+  fieldset
+  {
+    padding : 0.7em 1em 1em 1em ;
+    border : thin solid #002 ;
+    margin : 1em ;
+  }
+
+  fieldset legend
+  {
+    font-style : italic ;
+  }
+
+  div.xml
+  {
+    padding : 0.2em ;
+    margin : 0.2em 0.2em 0.2em 1.5em ;
+  }
+
+  span.xml
+  {
+    padding : 0 ;
+    margin : 0.2em ;
+  }
+
+  .xml
+  {
+    background-color : #fff ;
+    border : thin solid transparent ;
+  }
+
+  .context
+  {
+    border : thin solid red ;
+  }
+
+  .hilite
+  {
+    background-color : #fbb ;
+  }
+
+  fieldset#axes-placeholder
+  {
+    visibility : hidden ;
+    float : right ;
+  }
+
+  fieldset#axes
+  {
+    position : fixed ;
+    top : 5em ;
+    right : 0.5em ;
+  }
