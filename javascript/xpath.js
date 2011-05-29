@@ -30,6 +30,7 @@
     }
     context.className += ' context' ;
     event.stopPropagation () ;
+    showAxis (document.getElementById ('axes') .getElementsByTagName ('select') [0].value) ;
   }
 
   function showAxis (axis)

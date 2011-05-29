@@ -1,4 +1,4 @@
-A rather silly demo of how XPath axes work. I'm not sure it works
-anywhere but in Firefox (or even whether it works well in modern
-Firefoxes).
+A rather silly demo of how XPath axes work. Works client-side, but I'm
+not sure it does work anywhere but in Firefox (or in other
+Gecko/SpiderMonkey-baseds).
 
